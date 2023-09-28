@@ -45,7 +45,7 @@ class Enmax(UtilityBase):
             data=(
                 b'<?xml version="1.0" encoding="utf-8"?>'
                 b'<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"'
-                b'xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">'
+                b' xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">'
                 b'<soap:Body><GetUpdatedFormDigest xmlns="http://schemas.microsoft.com/sharepoint/soap/" />'
                 b"</soap:Body></soap:Envelope>"
             ),
